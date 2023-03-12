@@ -7,17 +7,17 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'Lora', serif;
+    --ff-secondary: 'Roboto Slab', serif;
     
-    --fw-reg: 300;
-    --fw-bold: 900;
+    --fw-reg: 400;
+    --fw-bold: 700;
     
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
     
-    --fs-h1: 3rem;
+    --fs-h1: 2rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
@@ -318,7 +318,11 @@ header {
     margin: 0 auto;
 }
 
-@media (min-width: 800px) {
+/* .interest-description {
+    text-align: justify;
+} */
+
+@media (min-width: 880px) {
     .interests {
         display: flex;
         max-width: 1000px;
@@ -335,6 +339,7 @@ header {
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .about-me__img {
