@@ -414,6 +414,11 @@ header {
     opacity: .5;
 }
 
+.library-img {
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 
 .footer {
@@ -464,11 +469,13 @@ header {
     margin: 0 auto;
 }
 
-.portfolio-item-individual p {
+.portfolio-item-individual {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 }
+
 
 
 
