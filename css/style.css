@@ -416,7 +416,13 @@ header {
 
 .library-img {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    
+}
+
+.library-img img {
+    margin: 0.25em 0;
 }
 
 /* Footer */
